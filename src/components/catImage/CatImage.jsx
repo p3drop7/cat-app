@@ -3,7 +3,8 @@ import "./catimage.css"
 function CatImage({imageURL}) {
   return (
     <div className="catImage-container">
-      <p>Image generated using the first letter of the fact:</p>
+      <h3>Image generated using the first letter of the fact:</h3>
+      
       {
         imageURL ?
           <div 

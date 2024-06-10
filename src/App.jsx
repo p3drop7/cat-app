@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react';
-import './App.css';
 import { getRandomCatFact } from './services/fact';
 import CatImage from './components/catImage/CatImage';
+import CatFacts from './components/catFact/CatFacts';
+import './App.css';
 
 function App() {
 
   const [catFact, setCatFact] = useState()
   const [catImage, setCatImage] = useState()
 
-  const handleClick =()=> {
+  const handleFact =()=> {
     getRandomCatFact().then(res => {
       setCatFact( res )
     })
@@ -22,12 +23,8 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Random cat facts and image generator!</h1>
-      <button onClick={handleClick}>Get a random fact!</button>
-      <p>Random fact: {
-          catFact ? catFact : "..."
-        }
-      </p>
+      <h1>😻 Random cat facts and image generator! 😻</h1>
+      <CatFacts handleFact={handleFact} catFact={catFact} />
       <CatImage imageURL={catImage} />
     </div>
   );
