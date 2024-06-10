@@ -1,6 +1,6 @@
 # Random Cat facts and images
 
-You can view this project here: [catsapp.github.io/p3drop7](http://catsapp.github.io/p3drop7)
+You can view this project here: [p3drop7.github.io/cat-app/](https://p3drop7.github.io/cat-app/)
 
 This project was created with React and APIs
 
