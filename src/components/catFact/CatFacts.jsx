@@ -1,9 +1,9 @@
 import './catFacts.css'
 
-function CatFacts({handleFact, catFact}) {
+function CatFacts({refreshCatFact, catFact}) {
   
   const handleClick =()=> {
-    handleFact()
+    refreshCatFact()
   }
 
   return (
