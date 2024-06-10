@@ -8,8 +8,9 @@ This project was created with **React** and **APIs**
 
 - useState
 - useEffect
+- Custom hooks
 
 ## APIs:
 
-- Cat Facts API: [catfact.ninja](https://catfact.ninja/)
+- Cat Facts: [catfact.ninja](https://catfact.ninja/)
 - CATAAS (Cats As A Service): [cataas.com](https://cataas.com/)
